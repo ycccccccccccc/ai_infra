@@ -1,0 +1,7 @@
+kernel,device,dtype,shape,median_ms,metric,throughput,prediction
+matmul,cpu,fp32,4096x4096 @ 4096x4096,68.29345785081387,TFLOPS,2.012476125784018,compute-bound when sufficiently large and square
+add_relu,cpu,fp32,33554432,5.753166973590851,estimated_GB/s,116.64682132129022,memory-bound when large; launch-bound when small
+random_embedding_lookup,cpu,fp32,table=131072x256; lookups=65536,5.589666543528438,estimated_GB/s,24.105555304725755,memory-bound; sensitive to cache locality and gather pattern
+matmul,mps,fp32,4096x4096 @ 4096x4096,38.37735438719392,TFLOPS,3.5812513829213253,compute-bound when sufficiently large and square
+add_relu,mps,fp32,33554432,5.596020957455039,estimated_GB/s,119.92246724987213,memory-bound when large; launch-bound when small
+random_embedding_lookup,mps,fp32,table=131072x256; lookups=65536,3.014166606590152,estimated_GB/s,44.702909157510085,memory-bound; sensitive to cache locality and gather pattern

@@ -1,5 +1,7 @@
 # AI Infrastructure Learning Roadmap
 
+**English** | [繁體中文](README.zh-TW.md)
+
 This repository documents how I plan to build practical AI Infrastructure skills by designing and implementing an end-to-end, self-service LLM inference platform.
 
 The roadmap is organized by capabilities rather than deadlines. It explains the concepts, engineering work, and system-design progression needed to move from GPU fundamentals to a reliable AI platform.

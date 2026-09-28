@@ -1,0 +1,37 @@
+device,device_name,precision,batch,matrix_size,median_runtime_ms,throughput_tflops,memory_used_mib,memory_measurement,status
+cpu,CPU (arm),fp32,1,128,0.006916932761669159,0.6063820691221887,0.1875,estimated input/output tensors,ok
+cpu,CPU (arm),fp32,1,512,0.17154193483293056,1.564838686595419,3.0,estimated input/output tensors,ok
+cpu,CPU (arm),fp32,1,1024,1.0457909666001797,2.0534540042752276,12.0,estimated input/output tensors,ok
+cpu,CPU (arm),fp32,8,128,0.04037492908537388,0.8310709829123971,1.5,estimated input/output tensors,ok
+cpu,CPU (arm),fp32,8,512,1.4416249468922615,1.4896271409768342,24.0,estimated input/output tensors,ok
+cpu,CPU (arm),fp32,8,1024,9.292582981288433,1.8487722109765847,96.0,estimated input/output tensors,ok
+cpu,CPU (arm),fp32,32,128,0.15962496399879456,0.8408316884633007,6.0,estimated input/output tensors,ok
+cpu,CPU (arm),fp32,32,512,6.478582974523306,1.325897133027311,96.0,estimated input/output tensors,ok
+cpu,CPU (arm),fp32,32,1024,37.325417157262564,1.841090655369379,384.0,estimated input/output tensors,ok
+cpu,CPU (arm),fp16,1,128,0.5002499092370272,0.008384417313332615,0.09375,estimated input/output tensors,ok
+cpu,CPU (arm),fp16,1,512,72.77966686524451,0.0036883303752547093,1.5,estimated input/output tensors,ok
+cpu,CPU (arm),fp16,1,1024,1061.2643340136856,0.002023514386729882,6.0,estimated input/output tensors,ok
+cpu,CPU (arm),fp16,8,128,4.031958058476448,0.008322118314067775,0.75,estimated input/output tensors,ok
+cpu,CPU (arm),fp16,8,512,601.1970420368016,0.003572012997144028,12.0,estimated input/output tensors,ok
+cpu,CPU (arm),fp16,8,1024,8366.698416881263,0.002053363026607561,48.0,estimated input/output tensors,ok
+cpu,CPU (arm),fp16,32,128,16.12991699948907,0.008321042693787667,3.0,estimated input/output tensors,ok
+cpu,CPU (arm),fp16,32,512,2408.0337500199676,0.0035671985876148003,48.0,estimated input/output tensors,ok
+cpu,CPU (arm),fp16,32,1024,33992.05645802431,0.0020216334019349334,192.0,estimated input/output tensors,ok
+mps,Apple GPU via MPS (arm64),fp32,1,128,0.5599588621407747,0.0074903788181238645,0.1875,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp32,1,512,0.9093750268220901,0.29518674703227427,3.0,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp32,1,1024,0.8670829702168703,2.476676075719585,12.0,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp32,8,128,0.3867920022457838,0.08675058378967751,1.5,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp32,8,512,1.7753751017153263,1.2095943251232661,24.0,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp32,8,1024,4.895665915682912,3.50919966351575,96.0,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp32,32,128,0.2758749760687351,0.48651650074474034,6.0,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp32,32,512,2.5463749188929796,3.3733974240267885,96.0,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp32,32,1024,18.862541997805238,3.643171569558117,384.0,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp16,1,128,0.5232910625636578,0.008015241038995898,0.09375,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp16,1,512,0.628666952252388,0.4269915175885251,1.5,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp16,1,1024,1.274291891604662,1.6852368457714697,6.0,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp16,8,128,0.5355000030249357,0.06266000338087305,0.75,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp16,8,512,1.2558749876916409,1.7099501694409722,12.0,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp16,8,1024,1.436582999303937,11.958842052512182,48.0,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp16,32,128,0.22312509827315807,0.6015357709139724,3.0,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp16,32,512,1.1549580376595259,7.437443016897084,48.0,MPS allocation snapshot,ok
+mps,Apple GPU via MPS (arm64),fp16,32,1024,4.914624849334359,13.982649508905531,192.0,MPS allocation snapshot,ok
